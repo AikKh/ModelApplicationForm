@@ -40,7 +40,7 @@ form.addEventListener('submit', async (e) => {
 
     // 3. Send Data to Formspree
     try {
-        const response = await fetch('https://formspree.io/f/xnnlkypq', { // <-- PASTE YOUR URL HERE
+        const response = await fetch('https://formspree.io/f/xgvdadkr', { // <-- PASTE YOUR URL HERE
             method: 'POST',
             body: formData,
             headers: {
